@@ -1,7 +1,7 @@
 class BigO{
     public static void main(String[] args) {
         // Hitung kecepatan matrix
-        int sekianKali = 7;
+        int sekianKali = 10;
         int barisKolom = 1000;
         for (int i = 0; i < sekianKali; i++) {
             System.out.println("\nmatrix " + barisKolom + "x" + barisKolom);

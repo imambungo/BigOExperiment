@@ -8,7 +8,7 @@ public class HitungWaktu{
     }
     public static void endTime() {
         endTime = System.nanoTime();
-        runTime = System.nanoTime() - startTime;
+        runTime = endTime - startTime;
         // System.out.println("endTime   : " + endTime);
     }
     public static void runTime() {
