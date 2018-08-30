@@ -1,17 +1,17 @@
 public class HitungWaktu{
-    private long startTime;
-    private long endTime;
-    private long runTime;
-    public void startTime() {
-        this.startTime = System.nanoTime();
-        // System.out.println("startTime : "+this.startTime);
+    private static long startTime;
+    private static long endTime;
+    private static long runTime;
+    public static void startTime() {
+        startTime = System.nanoTime();
+        // System.out.println("startTime : "+startTime);
     }
-    public void endTime() {
-        this.endTime = System.nanoTime();
-        this.runTime = System.nanoTime() - this.startTime;
-        // System.out.println("endTime   : " + this.endTime);
+    public static void endTime() {
+        endTime = System.nanoTime();
+        runTime = System.nanoTime() - startTime;
+        // System.out.println("endTime   : " + endTime);
     }
-    public void runTime() {
-        System.out.println("runTime   : " + this.runTime);
+    public static void runTime() {
+        System.out.println("runTime   : " + runTime);
     }
 }
