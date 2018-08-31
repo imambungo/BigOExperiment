@@ -1,16 +1,13 @@
 class BigO{
     public static void main(String[] args) {
         // Hitung kecepatan matrix
-        int sekianKali = 10;
-        int barisKolom = 1000;
-        for (int i = 0; i < sekianKali; i++) {
-            System.out.println("\nmatrix " + barisKolom + "x" + barisKolom);
-            MyMatrix mA = new MyMatrix(barisKolom, barisKolom);
+        for (int i = 1000; i <= 10000; i += 1000) {
+            System.out.println("\nmatrix " + i + "x" + i);
+            MyMatrix mA = new MyMatrix(i, i);
             HitungWaktu.startTime();
             mA.randomMatrix();
             HitungWaktu.endTime();
             HitungWaktu.runTime();
-            barisKolom += 1000;
         }
     }
 }
