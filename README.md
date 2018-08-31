@@ -1,10 +1,12 @@
 # Belajar Struktur Data
 
-Experimen Big O.
+## Experimen Big O
 
-Experiment result: <https://www.desmos.com/calculator/lyxw2cbt5e>
+### 1. Matrix
 
-### Sample 1 :
+Matrix experiment result: <https://www.desmos.com/calculator/lyxw2cbt5e>
+
+sample 1 :
 
 ```
 matrix 1000x1000

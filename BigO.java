@@ -21,8 +21,8 @@ class BigO{
             System.out.println("\n-----------------------\n");
             a.collapse();
             b.collapse();
-
-            System.out.println("add rekursif " + i + "x");
+            System.out.println("add " + i + "x\n");
+            System.out.println("rekursif");
             HitungWaktu.startTime();
             for (int j = 0; j < i; j++) {
                 a.add(j);
@@ -30,7 +30,7 @@ class BigO{
             HitungWaktu.endTime();
             HitungWaktu.runTime();
 
-            System.out.println("\nadd non-rekursif " + i + "x");
+            System.out.println("\nnon-rekursif");
             HitungWaktu.startTime();
             for (int j = 0; j < i; j++) {
                 b.add2(j);
